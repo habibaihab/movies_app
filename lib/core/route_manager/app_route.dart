@@ -10,6 +10,7 @@ import 'package:movies_app/features/home/presentation/pages/home_screen.dart';
 import 'package:movies_app/features/layout/presentation/pages/layout_screen.dart';
 import 'package:movies_app/features/search/presentation/manager/search_movies/search_cubit.dart';
 import 'package:movies_app/features/search/presentation/pages/search_screen.dart';
+import 'package:movies_app/features/watch_list/presentation/manager/watch_list/watch_list_cubit.dart';
 import 'package:movies_app/features/watch_list/presentation/pages/watch_list_screen.dart';
 
 import '../../features/splash/presentation/pages/splash_screen.dart';
@@ -23,7 +24,10 @@ final GoRouter appRoute = GoRouter(
     ),
     StatefulShellRoute.indexedStack(
       builder: (context, state, navigationShell) {
-        return LayoutScreen(navigationShell: navigationShell);
+        return BlocProvider(
+          create: (context) => WatchListCubit(),
+          child: LayoutScreen(navigationShell: navigationShell),
+        );
       },
       branches: [
         StatefulShellBranch(

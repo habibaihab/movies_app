@@ -43,6 +43,7 @@ dependencies:
   dartz: ^0.10.1
   carousel_slider: ^5.1.2
   firebase_core: ^4.15.0
+  cloud_firestore: ^6.1.2
 
 dev_dependencies:
   flutter_test:

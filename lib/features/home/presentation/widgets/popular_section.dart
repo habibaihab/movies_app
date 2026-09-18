@@ -6,6 +6,7 @@ import 'package:movies_app/core/constants/app_colors.dart';
 import 'package:movies_app/core/web_service/api_constants.dart';
 import 'package:movies_app/features/home/domain/entities/movie_entity.dart';
 
+import '../../../watch_list/presentation/widgets/watch_list_bookmark.dart';
 import '../manager/popular_movies/get_movies_cubit.dart';
 import '../pages/movie_details.dart';
 
@@ -83,14 +84,9 @@ class PopularSection extends StatelessWidget {
                   ),
                 ),
 
-                Container(
-                  padding: EdgeInsets.all(5.r),
-                  color: const Color(0xff514F4F),
-                  child: Icon(
-                    Icons.bookmark_add,
-                    color: AppColors.textColor,
-                    size: 28.r,
-                  ),
+                WatchListBookmark(
+                  movie: movieEntity,
+                  iconSize: 28.r,
                 ),
               ],
             ),

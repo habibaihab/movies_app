@@ -7,6 +7,7 @@ import 'package:movies_app/features/home/presentation/manager/up_coming_movies/u
 
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/web_service/api_constants.dart';
+import '../../../watch_list/presentation/widgets/watch_list_bookmark.dart';
 import '../pages/movie_details.dart';
 
 class RecommendedSection extends StatelessWidget {
@@ -48,19 +49,8 @@ class RecommendedSection extends StatelessWidget {
                 ),
                 Positioned(
                   left: 0,
-                    top: 0,
-                    child: Container(
-                      padding: EdgeInsets.all(5.r),
-                      decoration: BoxDecoration(
-                        // shape: BoxShape.circle,
-                          color: Color(0xff514F4F)
-                      ),
-                      child: Icon(
-                        Icons.bookmark_add,
-                        size: 30,
-                        color: AppColors.textColor,
-                      ),
-                    )
+                  top: 0,
+                  child: WatchListBookmark(movie: movie),
                 ),
               ],
             ),

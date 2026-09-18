@@ -5,6 +5,7 @@ import 'package:movies_app/core/constants/app_colors.dart';
 import 'package:movies_app/features/home/domain/entities/movie_entity.dart';
 
 import '../../../../core/web_service/api_constants.dart';
+import '../../../watch_list/presentation/widgets/watch_list_bookmark.dart';
 import '../widgets/movie_widgets/more_like_this.dart';
 import '../widgets/movie_widgets/movies_title.dart';
 
@@ -96,15 +97,7 @@ class MovieDetails extends StatelessWidget {
                             ),
                           ),
                           Positioned(
-                            child: Container(
-                              padding: EdgeInsets.all(5.r),
-                              decoration: BoxDecoration(color: Color(0xff514F4F)),
-                              child: Icon(
-                                Icons.bookmark_add,
-                                size: 30,
-                                color: AppColors.textColor,
-                              ),
-                            ),
+                            child: WatchListBookmark(movie: movie),
                           ),
                         ],
                       ),
