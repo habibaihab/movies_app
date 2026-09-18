@@ -232,19 +232,13 @@ flutter run
 ## Screenshots
 
 Screenshots of the application will be added here.
-
-### Home
-
+<p align="center">
 <img src="screenShots/home.png" width="250">
-
-### Browse
 
 <img src="screenShots/browes.png" width="250">
 
-### Genres Movies
-
 <img src="screenShots/genres.png" width="250">
-
+</P>
 ### Movie Details
 
 <img src="screenShots/movie.png" width="250">
