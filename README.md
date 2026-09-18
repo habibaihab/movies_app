@@ -231,7 +231,6 @@ flutter run
 
 ## Screenshots
 
-Screenshots of the application will be added here.
 <p align="center">
 <img src="screenShots/home.png" width="250">
 <img src="screenShots/search.png" width="250">
