@@ -198,32 +198,21 @@ Install the dependencies:
 ```bash
 flutter pub get
 ```
-
 ### Firebase Configuration
 
-The project uses Firebase and Cloud Firestore for the Watch List.
+The application uses Firebase Cloud Firestore to manage the user's Watch List.
 
-Make sure the Firebase project is properly configured for the platforms you want to run the application on.
-
-The project uses FlutterFire configuration through:
-
-```text
-lib/firebase_options.dart
-```
-
-Do not expose private Firebase credentials or service account keys in the repository.
+A Firebase project with Cloud Firestore enabled is required to run the Watch List functionality.
 
 ### TMDB Configuration
 
-The application uses the TMDB API to retrieve movie data.
+The application uses the TMDB API as the main source for movie data.
 
-Make sure the required API configuration is provided according to the project's API configuration setup.
-
-Do not commit private API keys or other sensitive credentials to the repository.
+Make sure the required TMDB API configuration is provided before running the application.
 
 ### Run the Application
 
-After completing the configuration, run:
+After completing the required configuration, run:
 
 ```bash
 flutter run
@@ -232,25 +221,23 @@ flutter run
 ## Screenshots
 
 <p align="center">
-<img src="screenShots/home.png" width="250">
-<img src="screenShots/search.png" width="250">
-<img src="screenShots/browes.png" width="250">
+  <img src="screenShots/home.png" width="250">
+  <img src="screenShots/search.png" width="250">
+  <img src="screenShots/browse.png" width="250">
+</p>
 
-</P>
 <p align="center">
-<img src="screenShots/genres.png" width="250">
-<img src="screenShots/movie.png" width="250">
-<img src="screenShots/watchList.png" width="250">
-
-
-</P>
-
+  <img src="screenShots/genres.png" width="250">
+  <img src="screenShots/movie.png" width="250">
+  <img src="screenShots/watchList.png" width="250">
+</p>
 
 ## Author
 
 **Habiba Ihab**
 
 Flutter Developer
+
 
 ## License
 
