@@ -239,9 +239,10 @@ Screenshots of the application will be added here.
 
 </P>
 <p align="center">
-<img src="screenShots/watchList.png" width="250">
 <img src="screenShots/genres.png" width="250">
 <img src="screenShots/movie.png" width="250">
+<img src="screenShots/watchList.png" width="250">
+
 
 </P>
 
