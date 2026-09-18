@@ -223,7 +223,7 @@ flutter run
 <p align="center">
   <img src="screenShots/home.png" width="250">
   <img src="screenShots/search.png" width="250">
-  <img src="screenShots/browse.png" width="250">
+  <img src="screenShots/browes.png" width="250">
 </p>
 
 <p align="center">
