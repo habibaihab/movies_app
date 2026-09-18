@@ -234,22 +234,17 @@ flutter run
 Screenshots of the application will be added here.
 <p align="center">
 <img src="screenShots/home.png" width="250">
-
+<img src="screenShots/search.png" width="250">
 <img src="screenShots/browes.png" width="250">
 
-<img src="screenShots/genres.png" width="250">
 </P>
-### Movie Details
-
+<p align="center">
+<img src="screenShots/watchList.png" width="250">
+<img src="screenShots/genres.png" width="250">
 <img src="screenShots/movie.png" width="250">
 
-### Search
+</P>
 
-<img src="screenShots/search.png" width="250">
-
-### Watch List
-
-<img src="screenShots/watchList.png" width="250">
 
 ## Author
 
