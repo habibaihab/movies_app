@@ -12,6 +12,18 @@ class WatchListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.backgroundColor,
+      appBar: AppBar(
+        backgroundColor: AppColors.grayBackground,
+        elevation: 0,
+        title: Text(
+          'Watchlist',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 24.sp,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
       body: SafeArea(
         child: BlocBuilder<WatchListCubit, WatchListState>(
           builder: (context, state) {
